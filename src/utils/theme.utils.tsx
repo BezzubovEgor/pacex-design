@@ -11,5 +11,5 @@ export function withTheme<T>(Comp: React.ComponentType<T>) {
 }
 
 export function themeValue(property: keyof Theme) {
-    return (props: WithTheme<object>) => props?.theme?.[property];
+    return (props: WithTheme<Record<string, unknown>>) => props?.theme?.[property];
 }
