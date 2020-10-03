@@ -3,7 +3,6 @@ import { css } from 'styled-components';
 import { StylesMap } from '../../interfaces/Styles';
 import { getStyleVariant } from '../styles.utils';
 
-
 describe(`[Style Utils]`, () => {
     const styles: StylesMap = {
         light: css`
@@ -19,5 +18,5 @@ describe(`[Style Utils]`, () => {
         ['dark', styles.dark],
     ])(`Should return '%s' style variant`, (variant, expected) => {
         expect(getStyleVariant(styles)({ variant })).toEqual(expected);
-    })
+    });
 });
