@@ -6,6 +6,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
     "storybook:start": "start-storybook -p 6006 -s public",
     "storybook:build": "build-storybook -s public",
