@@ -9,6 +9,7 @@
     "eject": "react-scripts eject",
     "storybook:start": "start-storybook -p 6006 -s public",
     "storybook:build": "build-storybook -s public",
+    "storybook:deploy": "yarn storybook:build && gh-pages -d storybook-static",
     "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix",
     "format": "prettier --write src/**/*.{js,ts,tsx}"
   },
@@ -43,6 +44,7 @@
     "eslint-plugin-jest": "^24.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.3",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "react-is": "^16.13.1",
