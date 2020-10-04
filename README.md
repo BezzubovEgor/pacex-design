@@ -1,3 +1,7 @@
+![Tests](https://github.com/BezzubovEgor/pacex-design/workflows/Tests/badge.svg)
+![Covarage](https://codecov.io/gh/BezzubovEgor/pacex-design/branch/main/graph/badge.svg?token=EWTNY6VK9K)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
